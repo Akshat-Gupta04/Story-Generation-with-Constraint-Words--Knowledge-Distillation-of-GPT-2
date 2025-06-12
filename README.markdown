@@ -139,10 +139,3 @@ Refer to the code in `Cell 13` (provided in the project notebook) to compare the
 - **Coherence**: Adjust generation parameters (e.g., lower temperature) or fine-tune the model further to improve narrative coherence.
 - **Dataset**: Incorporate a more diverse dataset to enhance the model’s storytelling capabilities.
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-## Acknowledgments
-- **Hugging Face**: For providing the `transformers` library and hosting the models.
-- **ROCStories Dataset**: For the training data used in this project.
-- **RunPod**: For providing the A100 SXM GPU used for training.
