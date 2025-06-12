@@ -3,8 +3,7 @@
 ## Project Overview
 This project focuses on fine-tuning a GPT-2 model for story generation with constraint words using knowledge distillation. The teacher model is Qwen/Qwen3-1.7B, and the student model is a distilled version of GPT-2 (openai-community/gpt2). The fine-tuning dataset is the ROCStories dataset, which contains short, five-sentence stories. The goal is to generate coherent stories that include specified constraint words, such as "princess", "castle", and "dragon". The project also compares the performance of the trained model against the base GPT-2 model in terms of coherence and constraint word inclusion success rate.
 
-- **Training Date and Time**: 03:54 PM IST, Thursday, June 12, 2025
-- **Environment**: Trained on a CUDA-enabled device with BF16 support (A100 SXM GPU on RunPod), later evaluated on a Mac with MPS (Apple GPU) acceleration at 05:54 PM IST on June 12, 2025.
+- **Environment**: Trained on a CUDA-enabled device with BF16 support (A100 SXM GPU on RunPod), later evaluated on a Mac with MPS (Apple GPU) acceleration 
 - **Repository**: The trained model is hosted on Hugging Face at [here4code/distilled-gpt2-story-generation-Qwen3-1.7B](https://huggingface.co/here4code/distilled-gpt2-story-generation-Qwen3-1.7B).
 
 ## Installation
